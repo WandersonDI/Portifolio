@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-size: 20px;
+}
+body{
+    background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/5d4a1685-9933-4c49-829c-8e298fef2f89/dfr878n-6096a1e4-f93a-4dd2-97fc-3f10dd8b3512.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzVkNGExNjg1LTk5MzMtNGM0OS04MjljLThlMjk4ZmVmMmY4OVwvZGZyODc4bi02MDk2YTFlNC1mOTNhLTRkZDItOTdmYy0zZjEwZGQ4YjM1MTIucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.NgEESb6KRKHEY18kDlch8hfbvY50eQsfaq1OMiTGNIE");
+    background-position: 0 -100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+header{
+    position: fixed;
+    left: 50%;
+    right: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+header > div > ul, header > div > ul >a:visited, header > div > a:visited{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+header > div > ul > a{
+    background-color: rgb(121, 45, 131);
+    box-shadow: inset 10px 10px 50px rgb(9, 13, 48);
+    padding: 20px;
+}
+header > div > ul > a:hover{
+    background-color: blue;
+}
+main{
+    padding-top: 120px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+main > div{
+    width: 80%;
+    background-color: rgba(23, 22, 26, 0.651);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.icon > img {
+    width: 250px;
+}
+.secLeft{
+    padding: 150px 0;
+
+}
+.descri{
+    display: flex;
+    color: rgb(255, 255, 255);
+}
+.text >h2{
+    color: rgb(40, 126, 255);
+    font-size: 40px;
+}
+
+.text>h3{
+    color: rgb(230, 227, 64);
+    padding-bottom: 20px;
+}
+
+.text{
+    width: 700px;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+#formacao{
+    width: 63%;
+    padding-bottom: 200px;
+    color: white;
+}
+
+#formacao > div{
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+#formacao > h1{
+
+    font-size: 40px;
+    color: rgb(0, 255, 85);
+
+}
+
+#projetos{
+    width: 65%;
+    padding-bottom: 100px;
+}
+#projetos> h1{
+    font-size: 40px;
+    color: rgb(250, 63, 63);
+}
+
+#projetos > div{
+    padding-top: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+#projetos > div > div{
+    color: white;
+    width: 30%;
+    height: 200px;
+    background-color: rgba(177, 186, 194, 0.295);
+    border-radius: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#projetos > div > div > h2{
+    font-size: 25px;
+    color: yellow;
+}
+
+#projetos > div > div > a{
+    background-color: rgb(245, 83, 83);
+    color:  white;
+    width: 100px;
+    padding: 5px;
+}
+#projetos > div > div > a:hover{
+    background-color: rgb(156, 52, 52);
+}
+
+#contato{
+    width: 64%;
+    padding-bottom: 50px;
+}
+#contato > h2{
+    font-size: 40px;
+    color: #3b7bf3;
+    padding-bottom: 100px;
+}
+.form-container {
+    color: white;
+    max-width: 500px;
+    padding: 20px;
+    background-color: rgba(44, 85, 57, 0.692);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-container h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.form-group textarea {
+    height: 150px;
+}
+
+.form-group .button {
+    width: 100%;
+    padding: 10px;
+    background-color: #0f2b69;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.form-group button:hover {
+    background-color: #060925;
+}
